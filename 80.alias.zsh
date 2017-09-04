@@ -1,6 +1,8 @@
 alias vi='vim'
 alias emacs='emacs -nw'
 # alias vim='emacs'
+alias e='emacs'
+
 
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -22,3 +24,5 @@ alias -s java='runjava'
 
 # sudoの後のコマンドもエイリアス有効に
 alias sudo='sudo '
+
+alias reload="source ~/.zshrc"

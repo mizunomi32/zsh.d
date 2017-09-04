@@ -13,3 +13,7 @@ function runjava () {
 	shift
 	java $clasName $@
 }
+command_not_found_handler()
+{
+    echo "$* なんてないよ！！"
+}
